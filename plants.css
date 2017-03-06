@@ -1,0 +1,29 @@
+
+h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: orange;
+}
+body {
+    margin-left: 50px; 
+    margin-right: 50px;
+    background-color: black;
+}
+p {
+   color: white;
+}
+.one {
+    color: yellow;
+}
+h2 {
+    margin-left: 50px;
+    color: #FF6600;
+}
+a, a:visited {
+    color: #002;
+    text-decoration: none;
+}
+footer {
+    background-color: #FFFFE5;
+}
+
