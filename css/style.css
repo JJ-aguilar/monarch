@@ -1,75 +1,24 @@
-h1 {
-    letter-spacing: .30rem;
-    text-align: left;
-    font-family: 'SmallCaps', sans-serif;
-    font-size: 2.5em;
-    font-weight: bold;
-    font-variant: small-caps;
-    margin-top: 1.0em;
-    margin-bottom: 0.5em;
-    color: #FF7812;
-}
-
-style {
-    background-color: green;
-}
-#container {
-    border: 5px solid; 
-    border-radius: 10px;
-    border-color: orange;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    background-color: white;
-}
-main {
+header {
+    text-align: right;
+   }      
+     
+#mainnav > a {
     display: block;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2vw;
-    width: 88vw;
-    height: 32vw;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    text-align: center;
+    color: yellow;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
 }
-body {
-    margin: 5vw;
-    margin-left: 50px; 
-    margin-right: 50px;
-    background-color: #141409;
-}
-.sidebyside img {
-    padding-left: 0.5vw;
-    margin: 5vw;
-    width:200px;
-    height: 150px;
-}
-
-.one {
+#mainnav > a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+}   
+/* change the link color on hover */
+#mainnav > a:hover {
+    background-color: #555;
     color: white;
 }
-h2 {
-    margin-left: 50px;
-    color: #FF6600;
-}
-a, a:visited {
-    color: black;
-    text-decoration: none;
-}
-a:hover, a:active {
-    color: orange;
-}
-footer {
-    background-color: #FFFFE5;
-}
-section {
-    background-color: #FFE6E6;
-    padding: 20px;
-    border: 2px solid #FFA142;
-    margin-top: 30px;
-}
-.links {
-    color: black;
-}
+
 
