@@ -1,7 +1,11 @@
+body {
+  background-color: #FFF8DC;
+}
 header {
     border:  1px solid #444;
     padding: 30px;
     padding: 50px;
+    background-image: url("monarch.jpeg");
    }      
 #mainnav > a {
     display: block;
@@ -21,20 +25,25 @@ header {
 #mainnav > a:hover {
     background-color: #555;
     color: white;
+
 }
-section h2 {
+ h2 {
     text-align: center;
     padding: 50px;
+    
+}
+footer {
+    text-align: center;
 }
 .one {
-   border: 1px splid black;
+   border-bottom: 1px splid black;
+   background-color: lightgrey;
    margin-left: 240px;
    font-size: 1.2em;
    color: ;
    margin-top: -230px;
 }
-p {
-   margin-top: 20p;
-}
-ul {
-   
+
+weare  {
+    margin-top: -300;
+}   
