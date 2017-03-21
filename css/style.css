@@ -1,17 +1,21 @@
-body {
-  background-color: #FFF8DC;
+#grad {
+     background: Orange;
 }
 header {
     border:  1px solid #444;
     padding: 30px;
     padding: 50px;
-    background-image: url("monarch.jpeg");
-   }      
+    background-image: url("../header.jpg");
+    background-size: cover;
+   } 
+header h1 {
+     text-shadow: 2px 2px 5px Orange;
+}
 #mainnav > a {
     display: block;
     color: yellow;
     margin: 0;
-    padding: 0;
+    padding:0;
     width: 200px;
     background-color: Orange;
 }
@@ -25,25 +29,28 @@ header {
 #mainnav > a:hover {
     background-color: #555;
     color: white;
+}
+  h2 {
+        text-align: center;
+  }
+     footer {
+        text-align: center;
+  }
+     .one {
+           border-bottom: 1px splid black;
+           background-color: #ffffff;
+           opacity: 0.8;
+           margin-left: 240px;
+           font-size: 20px;
+           color: black;
+           margin-top: -230px;
+           text-indent: 30px;
+           letter-spacing: 1px;
+  } 
 
-}
- h2 {
-    text-align: center;
-    padding: 50px;
-    
-}
-footer {
-    text-align: center;
-}
-.one {
-   border-bottom: 1px splid black;
-   background-color: lightgrey;
-   margin-left: 240px;
-   font-size: 1.2em;
-   color: ;
-   margin-top: -230px;
-}
-
-weare  {
-    margin-top: -300;
-}   
+     .weare  {
+              margin-top: -300;
+              margin-left: 240px;
+              text-indent: 30px;
+              letter-spacing: 1px;
+  }   
