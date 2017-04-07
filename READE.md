@@ -1,1 +1,0 @@
-# Monarch Butterfly Project
