@@ -5,7 +5,7 @@ header {
     border:  1px solid #444;
     padding: 30px;
     padding: 50px;
-    background-image: url("../header.jpg");
+    background-image: url("../images/header.jpg");
     background-size: cover;
    } 
 header h1 {
