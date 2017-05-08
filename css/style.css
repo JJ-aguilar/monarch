@@ -19,6 +19,11 @@ header {
     border-top: 2px solid #FD9;
     text-align: center;
 }
+
+header > img {
+    grid-area: 1/1/2/4;
+}
+
 header > h1 {
     font-size: 36px;
     color: #F70;
@@ -33,33 +38,37 @@ header > h2 {
 
 /* Navigation box */
 nav {
-    grid-area: 2 / 1 / 3 / 2;
-    margin-top: 5px;
+    grid-area: 2 / 1 / 3 / -2;
+    margin-top: 15px;
     padding: 10px;
-    border: 5px dotted #000;
-    background-color: white;
+    border: 3px dotted #FD9;
+    background-color: #F70;
 }
 nav > a {
     display: block;
     margin-top: 7px;
-    font: bold 12pt/24px sans-serif;
+    font: bold 13pt/24px sans-serif;
 }
 nav > a, nav > a:visited {
-    color: #007;
+    color: black;
     text-decoration: none;
 }
 nav > a:hover {
-    color: #7F6B00;
+    color: #FD9;
     text-decoration: none;
+    background-color: darkorange;
 }
 
 /* Main */
 main {
     grid-area: 2 / 2 / 4 / 3;
-    padding-top: 25px;
+    margin-right: -339px;
+    margin-top: 15px;
+    padding-top: 35px;
     padding-left: 25px;
     padding-right: 25px;
     background-color: lightsalmon;
+    border: 5px dotted #FD9;
 }
 main p {
     text-align: justify;
