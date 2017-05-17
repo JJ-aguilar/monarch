@@ -5,6 +5,14 @@
 <title>Gallery</title>
 <style type="text/css">
 @import url("../css/style.css");
+main{
+margin-left: 18.5vw;
+    margin-right: 4.5vw;
+    display: grid;
+    grid-template-columns: 6vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw;
+    grid-template-rows: 6vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw;
+}
+
 figure {
     margin-top: auto;
     margin-bottom: 50px;
@@ -22,6 +30,70 @@ figure {
     width: 300px;
     border: 6px solid white;
 } 
+
+#Baby-Caterpillar {
+grid-area: 1/1/1/1;
+}
+
+#PEP-Growing-Caterpillar {
+grid-area: 1/1/1/1;
+}
+
+#green-pic-caterpillar {
+grid-area: 1/1/1/1;
+}
+
+#growing-caterpillar {
+grid-area: 1/1/1/1;
+}
+
+#monarch-chrysalis {
+grid-area: 1/1/1/1;
+}
+
+#hatched-butterfly {
+grid-area: 1/1/1/1;
+}
+
+#butterfly-in-net {
+grid-area: 1/1/1/1;
+}
+ 
+#butterfly-on-hand {
+grid-area: 1/1/1/1;
+}
+
+#monarch-white-pic{
+grid-area: 1/1/1/1;
+}
+
+#monarch-yellow-pic{
+grid-area: 1/1/1/1;
+}
+
+#monarch-green-pic{
+grid-area: 1/1/1/1;
+}
+#butterfly-observation{
+grid-area: 1/1/1/1;
+}
+
+#monarch-rainbarrel{
+grid-area: 1/1/1/1;
+}
+
+#monarch-paper-plans{
+grid-area: 1/1/1/1;
+}
+
+#making-garden{
+grid-area: 1/1/1/1;
+}
+
+#release-observation{
+grid-area: 1/1/1/1;
+}
+
 figure img {
     padding: 40px;
     width: 180px;
@@ -52,7 +124,7 @@ footer {
 <body>
 <h1>The Monarch Butterfly: Gallery</h1>
 
-<figure>
+<figure id="Baby-Caterpillar">
 <figcaption>
 Baby Caterpillar
 </figcaption>
@@ -61,7 +133,7 @@ Baby Caterpillar
 </a>
 </figure>
 
-<figure>
+<figure  id="PEP-Growing-Caterpillar">
 <figcaption>
 PEP Caterpillar
 </figcaption>
@@ -70,7 +142,7 @@ PEP Caterpillar
 </a>
 </figure>
 
-<figure>
+<figure id="green-pic-caterpillar">
 <figcaption>
 Monarch Catterpillar
 </figcaption>
@@ -79,14 +151,14 @@ Monarch Catterpillar
 </a>
 </figure>
 
-<figure>
+<figure id="growing-caterpillar">
 <figcaption>Caterpillar Growing</figcaption>
 <a href="pictures/caterpillar.jpg">
 <img src="thumbnails/caterpillar-thumbnail.png" alt="Growing Caterpillar">
 </a>
 </figure>
 
-<figure>
+<figure id="monarch-chrysalis">
 <figcaption>
 Monarch Chrysalis
 </figcaption>
@@ -95,7 +167,7 @@ Monarch Chrysalis
 </a>
 </figure>
 
-<figure>
+<figure id="hatched-butterfly">
 <figcaption>
 Newly Hatched Butterfly
 </figcaption>
@@ -104,7 +176,7 @@ Newly Hatched Butterfly
 </a>
 </figure>
 
-<figure>
+<figure id="butterfly-in-net">
 <figcaption>
 Butterfly In Net
 </figcaption>
@@ -113,7 +185,7 @@ Butterfly In Net
 </a>
 </figure>
 
-<figure>
+<figure id="butterfly-on-hand">
 <figcaption>
 Monarch ready to fly away
 </figcaption>
@@ -122,7 +194,7 @@ Monarch ready to fly away
 </a>
 </figure>
 
-<figure>
+<figure id="monarch-white-pic" >
 <figcaption>
 Monarch Butterfly
 </figcaption>
@@ -131,7 +203,7 @@ Monarch Butterfly
 </a>
 </figure>
 
-<figure>
+<figure id= "monarch-yellow-pic">
 <figcaption>
 IDK
 </figcaption>
@@ -140,7 +212,7 @@ IDK
 </a>
 </figure>
 
-<figure>
+<figure id="monarch-green-pic" >
 <figcaption>
 IDK 2
 </figcaption>
@@ -149,21 +221,21 @@ IDK 2
 </a>
 </figure>
 
-<figure>
+<figure id="butterfly-observation">
 <figcaption>Monarch Release</figcaption>
 <a href="pictures/Butterfly-Release-Observations.jpg">
 <img src=thumbnails/Monarch-Release-observation.jpg alt"observation">
 </a>
 </figure>
 
-<figure>
+<figure id="release-observation">
 <figcaption>Biology Release Observation</figcaption>
 <a href="pictures/Biology-Class-Releasing-Monarch.jpg">
 <img src=thumbnails/Biology-class-release-thumbnail.png alt"observation">
 </a>
 </figure>
 
-<figure>
+<figure id="monarch-rainbarrel">
 <figcaption>
 Career Center Rainbarrel
 </figcaption>
@@ -172,24 +244,24 @@ Career Center Rainbarrel
 </a>
 </figure>
 
-<figure>
+<figure id="monarch-paper-plans">
 <figcaption>Garden Plan Poster</figcaption>
 <a href="pictures/geometry-class-making-garden-plan.png">
-<img src=thumbnails/geometry-class-garden-plan-thumbnail.png alt"observation">
+<img src=thumbnails/geometry-class-garden-plan-thumbnail.png alt="observation">
 </a>
 </figure>
 
-<figure>
+<figure id="making-garden">
 <figcaption>Digging The Garden</figcaption>
 <a href="pictures/Digging-the-Garden.jpg">
-<img src=thumbnails/digging-the-garden-thumbnail.png alt"observation">
+<img src=thumbnails/digging-the-garden-thumbnail.png alt="observation">
 </a>
 </figure>
 
-<figure>
+<figure id="release-observation">
 <figcaption>Biology Release Observation</figcaption>
 <a href="pictures/Monarch-Observations.jpg">
-<img src=thumbnails/monarch-observation-thumbnail.png alt"observation">
+<img src=thumbnails/monarch-observation-thumbnail.png alt="observation">
 </a>
 </figure>
 
