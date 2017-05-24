@@ -35,6 +35,9 @@ header > h2 {
     font: bold 12pt/24px serif;
     text-align: center;
 }
+li{
+    padding: 5px;
+}
 
 /* Navigation box */
 nav {

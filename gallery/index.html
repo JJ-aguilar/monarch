@@ -4,11 +4,15 @@
 <meta charset="utf-8">
 <title>Gallery</title>
 <style type="text/css">
-@import url("../css/style.css");
-main{
-margin-left: 18.5vw;
-    margin-right: 4.5vw;
+/* @import url("../css/style.css"); */
+
+body{
     display: grid;
+    grid-template-columns: 350px auto;
+    grid-template-rows: auto auto auto auto;
+    color: black;
+    background-color: black;
+    margin: 40px;
     grid-template-columns: 6vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw;
     grid-template-rows: 6vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw;
 }
@@ -32,11 +36,11 @@ figure {
 } 
 
 #Baby-Caterpillar {
-grid-area: 1/1/1/1;
+grid-area: 2/1/2/1;
 }
 
 #PEP-Growing-Caterpillar {
-grid-area: 1/1/1/1;
+grid-area: 3/2/1/2;
 }
 
 #green-pic-caterpillar {
@@ -108,7 +112,7 @@ body {
 }
 h1 {
   color: #FF6700;
-  grid-area: 1 / 1 / 2 / 4;
+  grid-area: 1 / 10 / 1 / 10;
   border-left: 2px solid #FD9;
   border-right: 2px solid #FD9;
   border-top: 2px solid #FD9;
