@@ -4,18 +4,7 @@
 <meta charset="utf-8">
 <title>Gallery</title>
 <style type="text/css">
-/* @import url("../css/style.css"); */
-
-body{
-    display: grid;
-    grid-template-columns: 350px auto;
-    grid-template-rows: auto auto auto auto;
-    color: black;
-    background-color: black;
-    margin: 40px;
-    grid-template-columns: 6vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw;
-    grid-template-rows: 6vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw;
-}
+@import url("../css/style.css")
 
 figure {
     margin-top: auto;
@@ -36,11 +25,11 @@ figure {
 } 
 
 #Baby-Caterpillar {
-grid-area: 2/1/2/1;
+grid-area: 4/1/4/1;
 }
 
 #PEP-Growing-Caterpillar {
-grid-area: 3/2/1/2;
+grid-area: 4/2/4/2;
 }
 
 #green-pic-caterpillar {
@@ -128,7 +117,8 @@ footer {
 <body>
 <h1>The Monarch Butterfly: Gallery</h1>
 
-<figure id="Baby-Caterpillar">
+<div id="Baby-Caterpillar">
+<figure>
 <figcaption>
 Baby Caterpillar
 </figcaption>
@@ -136,7 +126,8 @@ Baby Caterpillar
 <img src="thumbnails/babycaterpillar.jpg" alt="Baby Caterpillar">
 </a>
 </figure>
-
+</div>
+<!--
 <figure  id="PEP-Growing-Caterpillar">
 <figcaption>
 PEP Caterpillar
@@ -268,7 +259,8 @@ Career Center Rainbarrel
 <img src=thumbnails/monarch-observation-thumbnail.png alt="observation">
 </a>
 </figure>
-
+</div>
+--!>
 <footer style="text-align: center;">
 <a href="http://validator.w3.org/check/referer">
 <strong> HTML </strong> Valid! </a>
